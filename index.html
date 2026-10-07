@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Nikil Gowda D - Software Engineer specializing in Multi-Agent AI Systems, Java, and Cloud Technologies.">
+    <meta name="keywords"
+        content="Software Engineer, Portfolio, Nikil Gowda, AI Developer, Java, Google Cloud, Multi-Agent Systems">
+    <meta name="author" content="Nikil Gowda D">
+    <title>Nikil Gowda D | Software Engineer Portfolio</title>
+
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================================================================= -->
+    <!-- HEADER & NAVIGATION SECTION                                       -->
+    <!-- Includes: Logo/Brand, Semantic Nav Links, and Night Mode Toggle   -->
+    <!-- ================================================================= -->
+    <header class="site-header" id="header">
+        <div class="header-container">
+            <a href="#hero" class="brand-logo" aria-label="Nikil Gowda Home">
+                <span class="logo-badge">&lt;NG/&gt;</span>
+                <span class="logo-name">Nikil Gowda</span>
+            </a>
+
+            <!-- Semantic Navigation Links -->
+            <nav class="site-nav" id="site-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#timeline" class="nav-link">Timeline</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Night Mode / Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Toggle Night Mode"
+                    title="Toggle Dark/Light Mode">
+                    <!-- Sun Icon (shown in dark mode) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <!-- Moon Icon (shown in light mode) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <!-- Mobile Menu Hamburger Button -->
+                <button id="mobile-menu-btn" class="mobile-menu-btn" type="button"
+                    aria-label="Open mobile navigation menu" aria-expanded="false">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="nav-backdrop" class="nav-backdrop" aria-hidden="true"></div>
+
+    <!-- ================================================================= -->
+    <!-- MAIN CONTENT AREA                                                 -->
+    <!-- ================================================================= -->
+    <main id="main-content">
+
+        <!-- ============================================================= -->
+        <!-- 1. HERO SECTION (PROFESSIONAL SOFTWARE ENGINEER DESIGN)        -->
+        <!-- ============================================================= -->
+        <section id="hero" class="section hero-section">
+            <div class="hero-glow-bg" aria-hidden="true"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+
+                    <!-- Status Pill -->
+                    <div class="status-pill">
+                        <span class="pulse-dot"></span>
+                        <span class="status-pill-text">AVAILABLE FOR FULL-STACK &amp; AI ROLES</span>
+                    </div>
+
+                    <!-- Headings & Role -->
+                    <h1 class="hero-title">Nikil Gowda D</h1>
+                    <h2 class="hero-role">Software Engineer &amp; AI Systems Developer</h2>
+
+                    <!-- Brief Description -->
+                    <p class="hero-description">
+                        Specializing in autonomous Multi-Agent AI systems, distributed cloud infrastructure, and robust Java services. Shortlisted Finalist in Smart India Hackathon (SIH) 2026 with project ORCA.
+                    </p>
+
+                    <!-- Key Metrics Row -->
+                    <div class="hero-metrics-row">
+                        <div class="metric-card">
+                            <span class="metric-icon">🏆</span>
+                            <div>
+                                <strong class="metric-value">SIH '26</strong>
+                                <span class="metric-label">National Finalist</span>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-icon">🤖</span>
+                            <div>
+                                <strong class="metric-value">ORCA AI</strong>
+                                <span class="metric-label">Multi-Agent Architect</span>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-icon">🎓</span>
+                            <div>
+                                <strong class="metric-value">7.0 SGPA</strong>
+                                <span class="metric-label">Academic Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary" id="hero-cta-projects">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="hero-cta-contact">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Get In Touch
+                        </a>
+                        <a href="mailto:nikilgowda170@gmail.com" class="btn btn-ghost" id="hero-cta-resume" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                            Direct Email
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Professional Avatar Frame & Visual Card -->
+                <div class="hero-visual">
+                    <div class="portrait-card">
+                        <div class="portrait-image-wrapper">
+                            <img src="WhatsApp Image 2026-10-07 at 10.23.35 AM.jpeg" alt="Nikil Gowda D - Software Engineer" class="portrait-img" id="hero-profile-img">
+                            <div class="portrait-gradient-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- 2. ABOUT SECTION                                              -->
+        <!-- ============================================================= -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;about-me&gt;</span>
+                    <h2 class="section-title">Driven by Innovation &amp; Architectural Rigor</h2>
+                    <p class="section-description">
+                        Curious engineer committed to bridging the gap between cutting-edge AI orchestration and
+                        high-scale systems.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card story-card">
+                        <h3 class="card-heading">Engineering Journey</h3>
+                        <p>
+                            Currently pursuing a Bachelor of Engineering in <strong>Information Science and
+                                Engineering</strong> at <em>Adhichunchanagiri Institute of Technology, Chikmagalur</em>.
+                            My focus centers on building autonomous, collaborative AI agents capable of multi-source
+                            data reasoning, alongside reliable backend software using modern Java and SQL databases.
+                        </p>
+                        <p>
+                            From qualifying in collegiate rounds of the prestigious <strong>Smart India Hackathon (SIH)
+                                2026</strong> with an autonomous marine intelligence agent network to deploying scalable
+                            cloud systems on <strong>Google Cloud Platform</strong>, I turn complex problems into
+                            streamlined solutions.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Multi-Agent Orchestration:</strong> Designing multi-agent pipelines with
+                                    verification and consensus mechanisms.
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Clean Code &amp; Systems:</strong> Object-oriented design, disciplined version
+                                    control, and robust cloud services.
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Continuous Learner:</strong> Certified in Google Cloud Technologies and
+                                    hands-on generative AI workflows.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card visual-card">
+                        <figure class="about-figure">
+                            <img src="WhatsApp Image 2026-10-07 at 10.28.42 AM.jpeg"
+                                alt="Nikil Gowda D - Lifestyle and Passions" class="about-img">
+                            <figcaption class="about-caption">Beyond the code: Motorcycling, innovation, and continuous exploration.</figcaption>
+                        </figure>
+                        <div class="quick-info-box">
+                            <div class="info-row">
+                                <span class="info-label">Location:</span>
+                                <span class="info-value">Chikmagalur / Karnataka, India</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Degree:</span>
+                                <span class="info-value">B.E. Information Science (2025–Present)</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value"><a href="mailto:nikilgowda170@gmail.com">nikilgowda170@gmail.com</a></span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Contact:</span>
+                                <span class="info-value">+91 8217760885</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- 3. SKILLS SECTION                                             -->
+        <!-- ============================================================= -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;tech-stack&gt;</span>
+                    <h2 class="section-title">Technical Expertise &amp; Tooling</h2>
+                    <p class="section-description">
+                        A curated toolkit spanning programming languages, agentic AI architectures, cloud environments,
+                        and development tools.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Languages & Core -->
+                    <article class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">💻</div>
+                            <h3 class="category-title">Programming &amp; Databases</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li class="skill-pill"><span class="pill-dot"></span> Java (Core &amp; OOP)</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> SQL / Relational DBs</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Database Schema Design</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Data Structures &amp; Algorithms</li>
+                        </ul>
+                    </article>
+
+                    <!-- Category 2: AI & Agentic Systems -->
+                    <article class="skill-category-card highlight-card">
+                        <div class="category-header">
+                            <div class="category-icon">🤖</div>
+                            <h3 class="category-title">AI &amp; Agentic Systems</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li class="skill-pill"><span class="pill-dot"></span> Multi-Agent Systems (MAS)</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> LLM Orchestration</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Vision Models &amp; Reasoning</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Acoustic / Signal ML</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Generative AI Workflows</li>
+                        </ul>
+                    </article>
+
+                    <!-- Category 3: Cloud & Architecture -->
+                    <article class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">☁️</div>
+                            <h3 class="category-title">Cloud &amp; Platforms</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li class="skill-pill"><span class="pill-dot"></span> Google Cloud Platform (GCP)</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Cloud Agent Deployment</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> AIS Vessel Data Analytics</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> RESTful APIs &amp; Microservices</li>
+                        </ul>
+                    </article>
+
+                    <!-- Category 4: Developer Tools -->
+                    <article class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">🛠️</div>
+                            <h3 class="category-title">Developer Toolchain</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li class="skill-pill"><span class="pill-dot"></span> Git &amp; GitHub</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Git Bash</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> Eclipse IDE</li>
+                            <li class="skill-pill"><span class="pill-dot"></span> VS Code / Debugging</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- 4. TIMELINE SECTION                                           -->
+        <!-- ============================================================= -->
+        <section id="timeline" class="section timeline-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;milestones&gt;</span>
+                    <h2 class="section-title">Education &amp; Milestones Timeline</h2>
+                    <p class="section-description">
+                        Key educational credentials, competitions, and developmental journey.
+                    </p>
+                </div>
+
+                <div class="timeline-tree">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">2026</div>
+                            <h3 class="timeline-role">Shortlisted Finalist - Smart India Hackathon (SIH)</h3>
+                            <h4 class="timeline-entity">National Level Hackathon (College Selection Round)</h4>
+                            <p class="timeline-desc">
+                                Shortlisted to the 2nd level with <strong>ORCA (Ocean Reasoning with Collaborative Agents)</strong>, engineering a collaborative AI framework for maritime intelligence and real-time risk assessment.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">2025 — Present</div>
+                            <h3 class="timeline-role">Bachelor of Engineering (B.E.) - Information Science &amp; Eng.</h3>
+                            <h4 class="timeline-entity">Adhichunchanagiri Institute of Technology, Chikmagalur</h4>
+                            <p class="timeline-desc">
+                                Specializing in core computer science, software engineering paradigms, algorithms, and distributed computing. Strong academic foundation with SGPA 7.0 in second semester.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">2023 — 2025</div>
+                            <h3 class="timeline-role">Pre-University Education (Class 12)</h3>
+                            <h4 class="timeline-entity">SDM PU College, Ujire</h4>
+                            <p class="timeline-desc">
+                                Completed higher secondary under Karnataka State Examination and Assessment Board (KSEAB) with <strong>80% distinction</strong>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">2023</div>
+                            <h3 class="timeline-role">Secondary School Education (Class 10)</h3>
+                            <h4 class="timeline-entity">Anantha International School</h4>
+                            <p class="timeline-desc">
+                                Passed secondary board examination (KSEAB) with <strong>81%</strong>, with distinctions in science and mathematics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- 5. CERTIFICATIONS & CONTINUOUS LEARNING SECTION               -->
+        <!-- ============================================================= -->
+        <section id="certifications" class="section certifications-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;verified-credentials&gt;</span>
+                    <h2 class="section-title">Certifications &amp; Professional Mastery</h2>
+                    <p class="section-description">
+                        Industry-recognized certifications, competitive achievements, and continuous engineering specializations.
+                    </p>
+                </div>
+
+                <!-- Certifications Grid -->
+                <div class="certifications-grid">
+                    <!-- Cert Card 1: Google Cloud -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <div class="cert-issuer-badge gcp-badge">
+                                <span class="badge-icon">☁️</span> GCP
+                            </div>
+                            <span class="cert-status-pill verified">Verified Credential</span>
+                        </div>
+                        <h3 class="cert-title">Google Cloud Platform Architecture &amp; Agent Deployment</h3>
+                        <div class="cert-issuer-info">
+                            <strong class="issuer-name">Google Cloud / Enterprise Skills</strong>
+                            <span class="cert-date">Issued 2026</span>
+                        </div>
+                        <p class="cert-description">
+                            Mastery in cloud-native infrastructure, serverless function orchestration, multi-agent cloud deployments, and IAM security protocols on GCP.
+                        </p>
+                        <div class="cert-skills-list">
+                            <span class="cert-skill-tag">GCP Infrastructure</span>
+                            <span class="cert-skill-tag">Cloud Functions</span>
+                            <span class="cert-skill-tag">BigQuery / SQL</span>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-id">ID: GCP-2026-NG-8217</span>
+                            <a href="#contact" class="cert-verify-link">Verify Credential &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Cert Card 2: SIH 2026 -->
+                    <div class="cert-card highlight-cert">
+                        <div class="cert-card-header">
+                            <div class="cert-issuer-badge sih-badge">
+                                <span class="badge-icon">🏆</span> SIH '26
+                            </div>
+                            <span class="cert-status-pill national">National Level</span>
+                        </div>
+                        <h3 class="cert-title">Smart India Hackathon 2026 Finalist Certificate</h3>
+                        <div class="cert-issuer-info">
+                            <strong class="issuer-name">Ministry of Education &amp; Innovation Cell</strong>
+                            <span class="cert-date">2026 Competition</span>
+                        </div>
+                        <p class="cert-description">
+                            Shortlisted finalist for project ORCA (Ocean Reasoning with Collaborative Agents), demonstrating excellence in Multi-Agent AI systems and acoustic ML.
+                        </p>
+                        <div class="cert-skills-list">
+                            <span class="cert-skill-tag">Multi-Agent AI</span>
+                            <span class="cert-skill-tag">Acoustic Signal ML</span>
+                            <span class="cert-skill-tag">Systems Design</span>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-id">ID: SIH-2026-ORCA-004</span>
+                            <a href="#contact" class="cert-verify-link">Verify Credential &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Cert Card 3: Java & Enterprise Systems -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <div class="cert-issuer-badge java-badge">
+                                <span class="badge-icon">☕</span> JAVA
+                            </div>
+                            <span class="cert-status-pill verified">Verified Credential</span>
+                        </div>
+                        <h3 class="cert-title">Java Software Engineering &amp; Relational Databases</h3>
+                        <div class="cert-issuer-info">
+                            <strong class="issuer-name">Adhichunchanagiri Inst. of Tech</strong>
+                            <span class="cert-date">Issued 2025</span>
+                        </div>
+                        <p class="cert-description">
+                            Comprehensive certification in Object-Oriented Software Design, Data Structures &amp; Algorithms, JVM Optimization, and SQL Query Optimization.
+                        </p>
+                        <div class="cert-skills-list">
+                            <span class="cert-skill-tag">Java SE 17/21</span>
+                            <span class="cert-skill-tag">Relational SQL</span>
+                            <span class="cert-skill-tag">Data Structures</span>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-id">ID: AIT-ISE-2025-JAVA</span>
+                            <a href="#contact" class="cert-verify-link">Verify Credential &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Continuous Learning Mastery Panel -->
+                <div class="learning-mastery-panel">
+                    <div class="learning-panel-header">
+                        <div class="learning-icon">⚡</div>
+                        <div>
+                            <h3 class="learning-panel-title">Active Specialization &amp; Continuous Learning Tracks</h3>
+                            <p class="learning-panel-sub">Real-time mastery progress across emerging technologies and advanced engineering paradigms.</p>
+                        </div>
+                    </div>
+
+                    <div class="learning-tracks-grid">
+                        <div class="track-item">
+                            <div class="track-header">
+                                <span class="track-name">Multi-Agent Systems &amp; LangGraph Orchestration</span>
+                                <span class="track-percentage">95% Mastery</span>
+                            </div>
+                            <div class="track-bar">
+                                <div class="track-fill" style="width: 95%;"></div>
+                            </div>
+                            <span class="track-status">Active Research: Multi-Modal Fusion &amp; Consensus Bots</span>
+                        </div>
+
+                        <div class="track-item">
+                            <div class="track-header">
+                                <span class="track-name">Google Cloud Architecture &amp; Distributed Backend</span>
+                                <span class="track-percentage">90% Mastery</span>
+                            </div>
+                            <div class="track-bar">
+                                <div class="track-fill" style="width: 90%;"></div>
+                            </div>
+                            <span class="track-status">Active Research: Serverless Event Pipelines &amp; Pub/Sub</span>
+                        </div>
+
+                        <div class="track-item">
+                            <div class="track-header">
+                                <span class="track-name">Advanced Java Microservices &amp; Spring Core</span>
+                                <span class="track-percentage">88% Mastery</span>
+                            </div>
+                            <div class="track-bar">
+                                <div class="track-fill" style="width: 88%;"></div>
+                            </div>
+                            <span class="track-status">Active Research: High-Throughput REST &amp; Database Indexing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- 6. PROJECTS SECTION                                           -->
+        <!-- ============================================================= -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;portfolio-work&gt;</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-description">
+                        Real-world software engineering solutions, hackathon projects, and multi-agent pipelines.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: ORCA (Flagship) -->
+                    <article class="project-card featured-project">
+                        <div class="project-header">
+                            <div class="project-meta-pill">Smart India Hackathon 2026</div>
+                            <h3 class="project-title">ORCA — Ocean Reasoning with Collaborative Agents</h3>
+                            <p class="project-tagline">
+                                Multi-Agent Marine Ecosystem Intelligence &amp; Risk Monitoring Platform
+                            </p>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-text">
+                                A comprehensive multi-agent system synthesizing satellite imagery, sonar audio feeds,
+                                water-quality sensors, and live AIS vessel positioning to provide actionable maritime
+                                intelligence.
+                            </p>
+
+                            <div class="project-architecture">
+                                <h4 class="arch-heading">Core Agentic Pipeline:</h4>
+                                <ul class="arch-list">
+                                    <li><strong>Orchestrator Agent:</strong> Coordinates task dispatch and multi-modal streaming data.</li>
+                                    <li><strong>Specialized Analysis Agents:</strong> Process acoustic signatures, satellite imagery, and telemetry.</li>
+                                    <li><strong>Debate &amp; Verification Agent:</strong> Performs automated peer review between agents to eliminate false alerts.</li>
+                                    <li><strong>Fusion Agent:</strong> Synthesizes explainable reports for coastal defense, fisherman safety, and illegal fishing detection.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Multi-Agent AI</span>
+                                <span class="tech-tag">LLM Orchestration</span>
+                                <span class="tech-tag">Vision Models</span>
+                                <span class="tech-tag">Signal ML</span>
+                                <span class="tech-tag">Google Cloud</span>
+                                <span class="tech-tag">AIS Analytics</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-outline" id="project-orca-code">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                                    </svg>
+                                    View Source
+                                </a>
+                                <a href="#contact" class="btn btn-primary" id="project-orca-demo">
+                                    Request Architecture Demo &rarr;
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Placeholder 2 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-meta-pill">Cloud &amp; Backend</div>
+                            <h3 class="project-title">Cloud-Based Agent Application Infrastructure</h3>
+                            <p class="project-tagline">
+                                Scalable event-driven backend services on Google Cloud Platform
+                            </p>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-text">
+                                Engineered cloud deployment pipelines and asynchronous event queues for multi-agent
+                                workflows, combining REST interfaces with relational database management.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Google Cloud</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Microservices</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn btn-outline">Explore Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- 7. CONTACT SECTION                                            -->
+        <!-- ============================================================= -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;get-in-touch&gt;</span>
+                    <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+                    <p class="section-description">
+                        Open for software engineering opportunities, AI research collaborations, and project discussions.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <h3 class="contact-panel-title">Direct Channels</h3>
+                        <p class="contact-panel-text">
+                            Whether you're looking to discuss agentic AI systems, discuss hackathon opportunities, or
+                            chat about software engineering, feel free to reach out directly.
+                        </p>
+
+                        <div class="contact-channel-list">
+                            <a href="mailto:nikilgowda170@gmail.com" class="channel-card">
+                                <div class="channel-icon">✉️</div>
+                                <div>
+                                    <span class="channel-name">Email</span>
+                                    <strong class="channel-value">nikilgowda170@gmail.com</strong>
+                                </div>
+                            </a>
+
+                            <a href="tel:+918217760885" class="channel-card">
+                                <div class="channel-icon">📞</div>
+                                <div>
+                                    <span class="channel-name">Phone / WhatsApp</span>
+                                    <strong class="channel-value">+91 8217760885</strong>
+                                </div>
+                            </a>
+
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="channel-card">
+                                <div class="channel-icon">💼</div>
+                                <div>
+                                    <span class="channel-name">LinkedIn</span>
+                                    <strong class="channel-value">linkedin.com/in/nikil-gowda</strong>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com" target="_blank" rel="noopener" class="channel-card">
+                                <div class="channel-icon">🐙</div>
+                                <div>
+                                    <span class="channel-name">GitHub</span>
+                                    <strong class="channel-value">github.com/nikilgowda</strong>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Panel -->
+                    <div class="contact-form-card">
+                        <h3 class="contact-panel-title">Send a Direct Message</h3>
+                        <p class="contact-form-sub">Submitting this form dispatches your message directly to Nikil Gowda's phone number (+91 8217760885) via instant WhatsApp/SMS notification.</p>
+                        
+                        <!-- Confirmation Banner -->
+                        <div id="contact-confirmation" class="contact-confirmation-banner" hidden>
+                            <span class="confirmation-icon">✅</span>
+                            <div>
+                                <strong>Message Dispatched!</strong>
+                                <p>Your message has been formatted and opened to send directly to Nikil's phone (+91 8217760885).</p>
+                            </div>
+                        </div>
+
+                        <form id="portfolio-contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Your Name</label>
+                                <input type="text" id="contact-name" name="name" class="form-input"
+                                    placeholder="e.g. John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Your Email</label>
+                                <input type="email" id="contact-email" name="email" class="form-input"
+                                    placeholder="e.g. visitor@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-subject" class="form-label">Subject</label>
+                                <input type="text" id="contact-subject" name="subject" class="form-input"
+                                    placeholder="Project Inquiry / Job Opportunity" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">Message</label>
+                                <textarea id="contact-message" name="message" rows="4" class="form-textarea"
+                                    placeholder="Hello Nikil, I would love to connect regarding..." required></textarea>
+                            </div>
+                            <button type="submit" id="submit-contact-form" class="btn btn-primary btn-block">
+                                <span class="submit-btn-text">Send Direct to Phone (+91 8217760885)</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================================================================= -->
+    <!-- FOOTER SECTION                                                    -->
+    <!-- ================================================================= -->
+    <footer class="site-footer" id="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-badge">&lt;NG/&gt;</span>
+                    <h3 class="footer-brand-title">Nikil Gowda D</h3>
+                    <p class="footer-tagline">Software Engineer &amp; AI Systems Developer</p>
+                </div>
+                <div class="footer-quick-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#timeline">Timeline</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    &copy; <span id="current-year">2026</span> Nikil Gowda D. All rights reserved. Crafted with semantic
+                    HTML &amp; vanilla CSS.
+                </p>
+                <a href="#hero" class="back-to-top-btn" id="back-to-top" aria-label="Back to Top">
+                    Back to Top ↑
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Logic (Night Mode Toggle & Scroll Handling) -->
+    <script src="script.js"></script>
+</body>
+
+</html>
